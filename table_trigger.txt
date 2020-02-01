@@ -1,0 +1,20 @@
+create table EmployeeRecord (
+Id int primary key identity(1,1),
+Name varchar(50),
+Salary int,
+Gender varchar(10),
+Department int
+)
+
+insert into EmployeeRecord values
+('Syed Affan Ahmed',2500,'Male',20),
+('hurain Fatima',2000,'Female',20),
+('Syed Sohail Zaidi',1300,'Male',10),
+('Sumair Khan',1500,'Male',10)
+
+
+create table EmployeeAudit
+(
+Id int primary key identity(1,1),
+Audit_Details varchar(1000)
+)
